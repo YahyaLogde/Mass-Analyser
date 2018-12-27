@@ -15,8 +15,11 @@ MassAnalyser.py
 **DESCRIPTION**
 
 Mass Analyser is a program that is used to calculate the mass-to-charge ratio of amino acid sequence information derived from digested proteins. This information is read into the program in the Fasta file format. The program copes with both monoisotopic and average mass values to calculate the mass-to-charge value for each sequence coinciding with what charge (1, 2 or 3) the user inputs. The program also takes into account the mass of water due to them being single residue.
-| Protein Name | Peptide No. | Mass-to-Charge | Charge | Sequence |
+
 The output file displays the results in a simple text file as columns with the following content:
+
+| Protein Name | Peptide No. | Mass-to-Charge | Charge | Sequence |
+| ------------ | :---------: | -------------: | ------ | -------- |
 
 **OPTIONS**
 
